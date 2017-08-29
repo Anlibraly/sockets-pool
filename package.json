@@ -1,14 +1,10 @@
 {
-  "name": "socket-pool",
+  "name": "sockets-pool",
   "version": "0.0.2",
   "description": "socket pooling",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/lovebear/socket-pool.git"
   },
   "keywords": [
     "socket",
@@ -21,10 +17,21 @@
     "node": ">= 0.10.0"
   },
   "license": "MIT",
-  "readmeFilename": "README.md",
   "devDependencies": {
     "mocha": "*",
     "should": "*",
     "intercept.js": "*"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anlibraly/sockets-pool.git"
+  },
+  "author": "anlibraly",
+  "bugs": {
+    "url": "https://github.com/Anlibraly/sockets-pool/issues"
+  },
+  "homepage": "https://github.com/Anlibraly/sockets-pool#readme"
 }
