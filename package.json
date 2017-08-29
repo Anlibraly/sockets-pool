@@ -1,6 +1,6 @@
 {
   "name": "sockets-pool",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "socket pooling",
   "main": "index.js",
   "scripts": {
